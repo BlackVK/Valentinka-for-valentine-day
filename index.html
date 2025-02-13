@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE YOU</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: black;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        canvas {
+            display: block;
+        }
+        #text {
+            position: absolute;
+            bottom: 20px;
+            font-family: 'Arial', sans-serif;
+            font-size: calc(5vw); /* Пропорциональный размер */
+            color: #c70012;
+            text-shadow: 0 0 10px #c70012, 0 0 20px #c70012;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <div id="text">I LOVE YOU</div>
+    <script src="script.js"></script>
+</body>
+</html>
